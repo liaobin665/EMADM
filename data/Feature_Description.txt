@@ -1,0 +1,37 @@
+Feature Description:
+
+Index: the index number of a row
+Address: the address of the ethereum account
+FLAG: whether the transaction is fraud or not
+Avg min between sent tnx: Average time between sent transactions for account in minutes.
+Avgminbetweenreceivedtnx: Average time between received transactions for account in minutes
+TimeDiffbetweenfirstandlast(Mins): Time difference between the first and last transaction. Senttnx: Total number of sent normal transactions.
+Receivedtnx: Total number of received normal transactions. NumberofCreatedContracts: Total Number of created contract transactions.
+UniqueReceivedFromAddresses: Total Unique addresses from which account received transactions. -UniqueSentToAddresses20: Total Unique addresses from which account sent transactions.
+MinValueReceived: Minimum value in Ether ever received.
+AvgValueReceived5Average value in Ether ever received.
+MinValSent: Minimum value of Ether ever sent.
+AvgValSent: Average value of Ether ever sent.
+MinValueSentToContract: Minimum value of Ether sent to a contract
+AvgValueSentToContract: Average value of Ether sent to contracts.
+MaxValueSentToContract: Maximum value of Ether sent to a contract
+TotalTransactions(IncludingTnxtoCreateContract): Total number of transactions TotalEtherSent:Total Ether sent for account address TotalEtherReceived: Total Ether received for account address TotalEtherSentContracts: Total Ether sent to Contract addresses
+TotalEtherBalance: Total Ether Balance following enacted transactions
+TotalERC20Tnxs: Total number of ERC20 token transfer transactions
+ERC20TotalEtherReceived: Total ERC20 token received transactions in Ether ERC20TotalEtherSent: Total ERC20token sent transactions in Ether
+ERC20TotalEtherSentContract: Total ERC20 token transfer to other contracts in Ether
+ERC20UniqSentAddr: Number of ERC20 token transactions sent to Unique account addresses ERC20UniqRecAddr: Number of ERC20 token transactions received from Unique addresses.
+ERC20UniqRecContractAddr: Number of ERC20token transactions received from Unique contract addresses.
+ERC20AvgTimeBetweenSentTnx: Average time between ERC20 token sent transactions in minutes 
+ERC20AvgTimeBetweenRecTnx: Average time between ERC20 token received transactions in minutes
+ERC20AvgTimeBetweenContractTnx: Average time ERC20 token between sent token transactions 
+ERC20MinValRec: Minimum value in Ether received from ERC20 token transactions for account.
+ERC20MaxValRec: Maximum value in Ether received from ERC20 token transactions for account 
+ERC20AvgValRec: Average value in Ether received from ERC20 token transactions for account
+ERC20MinValSent: Minimum value in Ether sent from ERC20 token transactions for account 
+ERC20MaxValSent: Maximum value in Ether sent from ERC20 token transactions for account
+ERC20AvgVal_Sent: Average value in Ether sent from ERC20 token transactions for account
+ERC20UniqSentTokenName: Number of Unique ERC20 tokens transferred
+ERC20UniqRecTokenName: Number of Unique ERC20 tokens received
+ERC20MostSentTokenType: Most sent token for account via ERC20 transaction
+ERC20MostRecTokenType: Most received token for account via ERC20 transactions
