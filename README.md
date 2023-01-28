@@ -1,5 +1,18 @@
 # Code repository for paper <EMADM: a highly accurate and interpretable model for detecting malicious accounts on the Ethereum blockchain>
 
+## IDE: pycharm and jupternotebook, Compiler Environment: python 3.9
+## Dependency libs or packages: 
+pandas 1.4.2, 
+sklearn 1.1.1,
+catboost 1.1.1
+matplotlib 3.5.1
+lightgbm 3.2.2
+xgboost 1.6.1
+seaborn 0.11.2
+shap 0.37.0
+missingno 0.5.1
+scikitplot 0.3.6
+
 
 ## Code structure description:
 ## data : 
