@@ -2,7 +2,7 @@
 
 ## IDE: pycharm and jupternotebook, Compiler Environment: python 3.9
 ## Dependency libs or packages: 
-pandas 1.4.2 <br>  
+pandas 1.4.2 <br>
 sklearn 1.1.1  <br>
 catboost 1.1.1  <br>
 matplotlib 3.5.1  <br>
