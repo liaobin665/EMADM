@@ -1,7 +1,7 @@
 '''
 author:lb
 function: 分类模型的utils, 功能包括：返回常用的分类器，将传入的数据运行，并将结果输出为excel格式，方便对比各模型之间的性能差异。
-版本日期：2022-10-23
+版本日期：2023-10-23
 '''
 import datetime
 import pandas as pd
