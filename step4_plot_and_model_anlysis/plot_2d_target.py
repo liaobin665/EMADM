@@ -14,6 +14,7 @@ data = pd.read_csv("../data/02_feature_selected_XGB.csv")
 
 feature_cols = [col for col in data.columns if col not in ['Address', 'FLAG']]
 
+
 X = data[feature_cols]
 y = data['FLAG']
 # 特征标准化
