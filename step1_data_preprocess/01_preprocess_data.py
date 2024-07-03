@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.impute import KNNImputer
 
-
 dataset = pd.read_csv("../data/Ethereum_transactional_dataset_including_ERC20.csv", sep=",")
 dataset = dataset.iloc[:, 2:]
 dataset.columns = dataset.columns.str.strip()
